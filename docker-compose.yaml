@@ -26,6 +26,8 @@ services:
 
 networks:
   user-network:
+    name: user-network
 
 volumes:
   mysql-data:
+    name: mysql-data     
